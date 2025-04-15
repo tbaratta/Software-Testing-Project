@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CoolMathGameSuite" class="navigator-link">
+              <span class="suite-name border-failed">CoolMathGameSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CoolMathGameSuite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CoolMathGameSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CoolMathGameSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CoolMathGameSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CoolMathGameSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CoolMathGameSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CoolMathGameSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">43 methods, 4 failed,   39 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CoolMathGameSuite" class="hide-methods failed suite-CoolMathGameSuite"> (hide)</a> <!-- hide-methods failed suite-CoolMathGameSuite -->
+                      <a href="#" panel-name="suite-CoolMathGameSuite" class="show-methods failed suite-CoolMathGameSuite"> (show)</a> <!-- show-methods failed suite-CoolMathGameSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-CoolMathGameSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Categories" class="method navigator-link" hash-for-method="categoriesPopular">categoriesPopular</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="SearchBar" class="method navigator-link" hash-for-method="searchBarClearing">searchBarClearing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="SearchBar" class="method navigator-link" hash-for-method="searchBarWhenEmpty">searchBarWhenEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Logic" class="method navigator-link" hash-for-method="testAtoZ">testAtoZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CoolMathGameSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CoolMathGameSuite" class="hide-methods passed suite-CoolMathGameSuite"> (hide)</a> <!-- hide-methods passed suite-CoolMathGameSuite -->
+                      <a href="#" panel-name="suite-CoolMathGameSuite" class="show-methods passed suite-CoolMathGameSuite"> (show)</a> <!-- show-methods passed suite-CoolMathGameSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-CoolMathGameSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Skills" class="method navigator-link" hash-for-method="HoveringOverGames">HoveringOverGames</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Skills" class="method navigator-link" hash-for-method="NavigateToSkillsandClick">NavigateToSkillsandClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Skills" class="method navigator-link" hash-for-method="VerticalandHorizontalScroll">VerticalandHorizontalScroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="NavBar" class="method navigator-link" hash-for-method="allGamesPage">allGamesPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Categories" class="method navigator-link" hash-for-method="categoriesCutTheRope">categoriesCutTheRope</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Categories" class="method navigator-link" hash-for-method="categoriesDailyGames">categoriesDailyGames</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Categories" class="method navigator-link" hash-for-method="categoriesNewGames">categoriesNewGames</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="NavBar" class="method navigator-link" hash-for-method="categoriesPage">categoriesPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Categories" class="method navigator-link" hash-for-method="categoriesPage">categoriesPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Logic" class="method navigator-link" hash-for-method="checkRecommended">checkRecommended</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Language" class="method navigator-link" hash-for-method="chinese">chinese</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="NavBar" class="method navigator-link" hash-for-method="classicCategory">classicCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Atari" class="method navigator-link" hash-for-method="clickAllGamesTab">clickAllGamesTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Atari" class="method navigator-link" hash-for-method="clickDislikeButton">clickDislikeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Atari" class="method navigator-link" hash-for-method="clickThumbsUpIcon">clickThumbsUpIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Language" class="method navigator-link" hash-for-method="deutsch">deutsch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Language" class="method navigator-link" hash-for-method="english">english</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Language" class="method navigator-link" hash-for-method="french">french</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Trivia" class="method navigator-link" hash-for-method="goToTriviaCategory">goToTriviaCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Language" class="method navigator-link" hash-for-method="hindi">hindi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Language" class="method navigator-link" hash-for-method="italian">italian</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Language" class="method navigator-link" hash-for-method="japanese">japanese</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Logic" class="method navigator-link" hash-for-method="loadRandomGame">loadRandomGame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="NavBar" class="method navigator-link" hash-for-method="logicCategory">logicCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Trivia" class="method navigator-link" hash-for-method="navigateToHomepage">navigateToHomepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Atari" class="method navigator-link" hash-for-method="navigateToHomepage">navigateToHomepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Trivia" class="method navigator-link" hash-for-method="openNameThatCandyVol2">openNameThatCandyVol2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="SearchBar" class="method navigator-link" hash-for-method="searchBarFunctionality">searchBarFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="SearchBar" class="method navigator-link" hash-for-method="searchBarInvalidSearch">searchBarInvalidSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="SearchBar" class="method navigator-link" hash-for-method="searchBarValidSearch">searchBarValidSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Atari" class="method navigator-link" hash-for-method="selectAtariAsteroids">selectAtariAsteroids</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Trivia" class="method navigator-link" hash-for-method="selectSourPatchKids">selectSourPatchKids</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="NavBar" class="method navigator-link" hash-for-method="skillCategory">skillCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Language" class="method navigator-link" hash-for-method="spanish">spanish</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Trivia" class="method navigator-link" hash-for-method="startCandyQuiz">startCandyQuiz</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="NavBar" class="method navigator-link" hash-for-method="strategyCategory">strategyCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Logic" class="method navigator-link" hash-for-method="testPageNumbers">testPageNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="NavBar" class="method navigator-link" hash-for-method="triviaCategory">triviaCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CoolMathGameSuite" title="Logic" class="method navigator-link" hash-for-method="verifyGameLoads">verifyGameLoads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CoolMathGameSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CoolMathGameSuite" class="panel CoolMathGameSuite">
+          <div class="suite-CoolMathGameSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">SearchBar</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBarClearing">
+                  </a> <!-- searchBarClearing -->
+                  <span class="method-name">searchBarClearing</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input aria-label=&quot;Enter Search Term&quot; autocomplete=&quot;off&quot; placeholder=&quot;Search&quot; type=&quot;text&quot; name=&quot;search_bar&quot; id=&quot;search-bar&quot; value=&quot;&quot; size=&quot;60&quot; maxlength=&quot;128&quot; class=&quot;form-text menu-search-bar&quot;&gt; is not clickable at point (1192, 29). Other element would receive the click: &lt;div class=&quot;col&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=135.0.7049.85)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;18ae989&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97eaf6ae92521dffd3b858bbf9666b4b, clickElement {id=f.4FA1DED887D2744669ACFA3AA6B9D071.d.491AEB987B049B986424279F1F5A26E9.e.132}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/_k/jy17ssg501s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63324/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (97eaf6ae92521dffd3b858bbf9666b4b)] -&gt; id: search-bar]
+Session ID: 97eaf6ae92521dffd3b858bbf9666b4b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at SearchBar.searchBarClearing(SearchBar.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at testRunner.main(testRunner.java:20)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBarWhenEmpty">
+                  </a> <!-- searchBarWhenEmpty -->
+                  <span class="method-name">searchBarWhenEmpty</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input aria-label=&quot;Enter Search Term&quot; autocomplete=&quot;off&quot; placeholder=&quot;Search&quot; type=&quot;text&quot; name=&quot;search_bar&quot; id=&quot;search-bar&quot; value=&quot;&quot; size=&quot;60&quot; maxlength=&quot;128&quot; class=&quot;form-text menu-search-bar&quot;&gt; is not clickable at point (1192, 29). Other element would receive the click: &lt;div class=&quot;col&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=135.0.7049.85)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;18ae989&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97eaf6ae92521dffd3b858bbf9666b4b, clickElement {id=f.4FA1DED887D2744669ACFA3AA6B9D071.d.BBE92667EA9C3407EFA63E7007ED29B2.e.595}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/_k/jy17ssg501s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63324/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (97eaf6ae92521dffd3b858bbf9666b4b)] -&gt; id: search-bar]
+Session ID: 97eaf6ae92521dffd3b858bbf9666b4b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at SearchBar.searchBarWhenEmpty(SearchBar.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at testRunner.main(testRunner.java:20)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CoolMathGameSuite-class-failed -->
+          <div class="suite-CoolMathGameSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Categories</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="categoriesPopular">
+                  </a> <!-- categoriesPopular -->
+                  <span class="method-name">categoriesPopular</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;inner&quot; href=&quot;1-popular-games&quot;&gt;...&lt;/a&gt; is not clickable at point (670, 374). Other element would receive the click: &lt;ul class=&quot;menu mb-0&quot;&gt;...&lt;/ul&gt;
+  (Session info: chrome=135.0.7049.85)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;18ae989&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2b4281bbb275dfa929ef873e65fe3eaf, clickElement {id=f.6175EB1C01884424A48D0F22FF126086.d.339A8807F409D7874A38092DE6B88CFB.e.1200}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/_k/jy17ssg501s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64689}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64689/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (2b4281bbb275dfa929ef873e65fe3eaf)] -&gt; css selector: a.inner[href=&apos;1-popular-games&apos;]]
+Session ID: 2b4281bbb275dfa929ef873e65fe3eaf
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Categories.categoriesPopular(Categories.java:85)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at testRunner.main(testRunner.java:20)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CoolMathGameSuite-class-failed -->
+          <div class="suite-CoolMathGameSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Logic</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAtoZ">
+                  </a> <!-- testAtoZ -->
+                  <span class="method-name">testAtoZ</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;button&quot; role=&quot;tab&quot; aria-selected=&quot;false&quot; aria-controls=&quot;panel-az&quot; data-state=&quot;inactive&quot; id=&quot;tab-az&quot; class=&quot;whitespace-nowrap rounded-sm text-sm md:text-lg font-bold ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm flex flex-col gap-[0.4rem] md:gap-2 justify-center items-start relative bg-transparent p-0 min-w-fit&quot; tabindex=&quot;-1&quot; data-orientation=&quot;horizontal&quot; data-radix-collection-item=&quot;&quot;&gt;...&lt;/button&gt; is not clickable at point (678, 246). Other element would receive the click: &lt;span class=&quot;text-[15px] font-bold ml-[15px]&quot;&gt;...&lt;/span&gt;
+  (Session info: chrome=135.0.7049.85)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;18ae989&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08e83c4bbf08f873ae579d2674f17f42, clickElement {id=f.2FCDA4E07BCDA13B534FA7D4F3F1C234.d.8B00AC0F407F528877694908AE9CA623.e.123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/_k/jy17ssg501s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50317}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50317/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (08e83c4bbf08f873ae579d2674f17f42)] -&gt; xpath: //*[@id=&quot;tab-az&quot;]]
+Session ID: 08e83c4bbf08f873ae579d2674f17f42
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Logic.testAtoZ(Logic.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at testRunner.main(testRunner.java:20)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CoolMathGameSuite-class-failed -->
+          <div class="suite-CoolMathGameSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SearchBar</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBarFunctionality">
+                  </a> <!-- searchBarFunctionality -->
+                  <span class="method-name">searchBarFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBarInvalidSearch">
+                  </a> <!-- searchBarInvalidSearch -->
+                  <span class="method-name">searchBarInvalidSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBarValidSearch">
+                  </a> <!-- searchBarValidSearch -->
+                  <span class="method-name">searchBarValidSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CoolMathGameSuite-class-passed -->
+          <div class="suite-CoolMathGameSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">NavBar</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="allGamesPage">
+                  </a> <!-- allGamesPage -->
+                  <span class="method-name">allGamesPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="categoriesPage">
+                  </a> <!-- categoriesPage -->
+                  <span class="method-name">categoriesPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="classicCategory">
+                  </a> <!-- classicCategory -->
+                  <span class="method-name">classicCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logicCategory">
+                  </a> <!-- logicCategory -->
+                  <span class="method-name">logicCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="skillCategory">
+                  </a> <!-- skillCategory -->
+                  <span class="method-name">skillCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="strategyCategory">
+                  </a> <!-- strategyCategory -->
+                  <span class="method-name">strategyCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="triviaCategory">
+                  </a> <!-- triviaCategory -->
+                  <span class="method-name">triviaCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CoolMathGameSuite-class-passed -->
+          <div class="suite-CoolMathGameSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Language</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chinese">
+                  </a> <!-- chinese -->
+                  <span class="method-name">chinese</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deutsch">
+                  </a> <!-- deutsch -->
+                  <span class="method-name">deutsch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="english">
+                  </a> <!-- english -->
+                  <span class="method-name">english</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="french">
+                  </a> <!-- french -->
+                  <span class="method-name">french</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hindi">
+                  </a> <!-- hindi -->
+                  <span class="method-name">hindi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="italian">
+                  </a> <!-- italian -->
+                  <span class="method-name">italian</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="japanese">
+                  </a> <!-- japanese -->
+                  <span class="method-name">japanese</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="spanish">
+                  </a> <!-- spanish -->
+                  <span class="method-name">spanish</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CoolMathGameSuite-class-passed -->
+          <div class="suite-CoolMathGameSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Trivia</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToTriviaCategory">
+                  </a> <!-- goToTriviaCategory -->
+                  <span class="method-name">goToTriviaCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToHomepage">
+                  </a> <!-- navigateToHomepage -->
+                  <span class="method-name">navigateToHomepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openNameThatCandyVol2">
+                  </a> <!-- openNameThatCandyVol2 -->
+                  <span class="method-name">openNameThatCandyVol2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectSourPatchKids">
+                  </a> <!-- selectSourPatchKids -->
+                  <span class="method-name">selectSourPatchKids</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="startCandyQuiz">
+                  </a> <!-- startCandyQuiz -->
+                  <span class="method-name">startCandyQuiz</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CoolMathGameSuite-class-passed -->
+          <div class="suite-CoolMathGameSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Atari</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAllGamesTab">
+                  </a> <!-- clickAllGamesTab -->
+                  <span class="method-name">clickAllGamesTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickDislikeButton">
+                  </a> <!-- clickDislikeButton -->
+                  <span class="method-name">clickDislikeButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickThumbsUpIcon">
+                  </a> <!-- clickThumbsUpIcon -->
+                  <span class="method-name">clickThumbsUpIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToHomepage">
+                  </a> <!-- navigateToHomepage -->
+                  <span class="method-name">navigateToHomepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectAtariAsteroids">
+                  </a> <!-- selectAtariAsteroids -->
+                  <span class="method-name">selectAtariAsteroids</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CoolMathGameSuite-class-passed -->
+          <div class="suite-CoolMathGameSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Categories</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="categoriesCutTheRope">
+                  </a> <!-- categoriesCutTheRope -->
+                  <span class="method-name">categoriesCutTheRope</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="categoriesDailyGames">
+                  </a> <!-- categoriesDailyGames -->
+                  <span class="method-name">categoriesDailyGames</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="categoriesNewGames">
+                  </a> <!-- categoriesNewGames -->
+                  <span class="method-name">categoriesNewGames</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="categoriesPage">
+                  </a> <!-- categoriesPage -->
+                  <span class="method-name">categoriesPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CoolMathGameSuite-class-passed -->
+          <div class="suite-CoolMathGameSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Skills</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HoveringOverGames">
+                  </a> <!-- HoveringOverGames -->
+                  <span class="method-name">HoveringOverGames</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateToSkillsandClick">
+                  </a> <!-- NavigateToSkillsandClick -->
+                  <span class="method-name">NavigateToSkillsandClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerticalandHorizontalScroll">
+                  </a> <!-- VerticalandHorizontalScroll -->
+                  <span class="method-name">VerticalandHorizontalScroll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CoolMathGameSuite-class-passed -->
+          <div class="suite-CoolMathGameSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Logic</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRecommended">
+                  </a> <!-- checkRecommended -->
+                  <span class="method-name">checkRecommended</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loadRandomGame">
+                  </a> <!-- loadRandomGame -->
+                  <span class="method-name">loadRandomGame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPageNumbers">
+                  </a> <!-- testPageNumbers -->
+                  <span class="method-name">testPageNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGameLoads">
+                  </a> <!-- verifyGameLoads -->
+                  <span class="method-name">verifyGameLoads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CoolMathGameSuite-class-passed -->
+        </div> <!-- panel CoolMathGameSuite -->
+        <div panel-name="test-xml-CoolMathGameSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;CoolMathGameSuite&quot; verbose=&quot;2&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AllFeatureTests&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SearchBar&quot;/&gt;
+      &lt;class name=&quot;Language&quot;/&gt;
+      &lt;class name=&quot;Categories&quot;/&gt;
+      &lt;class name=&quot;NavBar&quot;/&gt;
+      &lt;class name=&quot;Skills&quot;/&gt;
+      &lt;class name=&quot;Logic&quot;/&gt;
+      &lt;class name=&quot;Trivia&quot;/&gt;
+      &lt;class name=&quot;Atari&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AllFeatureTests --&gt;
+&lt;/suite&gt; &lt;!-- CoolMathGameSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CoolMathGameSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CoolMathGameSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AllFeatureTests (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CoolMathGameSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CoolMathGameSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CoolMathGameSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CoolMathGameSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CoolMathGameSuite');
+function tableData_CoolMathGameSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(43);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'HoveringOverGames')
+data.setCell(0, 2, 'Skills')
+data.setCell(0, 3, 23009);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerticalandHorizontalScroll')
+data.setCell(1, 2, 'Skills')
+data.setCell(1, 3, 22453);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyGameLoads')
+data.setCell(2, 2, 'Logic')
+data.setCell(2, 3, 15123);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'openNameThatCandyVol2')
+data.setCell(3, 2, 'Trivia')
+data.setCell(3, 3, 11773);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkRecommended')
+data.setCell(4, 2, 'Logic')
+data.setCell(4, 3, 11210);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'categoriesDailyGames')
+data.setCell(5, 2, 'Categories')
+data.setCell(5, 3, 10984);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testPageNumbers')
+data.setCell(6, 2, 'Logic')
+data.setCell(6, 3, 10866);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'NavigateToSkillsandClick')
+data.setCell(7, 2, 'Skills')
+data.setCell(7, 3, 10408);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'searchBarValidSearch')
+data.setCell(8, 2, 'SearchBar')
+data.setCell(8, 3, 9551);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'categoriesCutTheRope')
+data.setCell(9, 2, 'Categories')
+data.setCell(9, 3, 9240);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'categoriesNewGames')
+data.setCell(10, 2, 'Categories')
+data.setCell(10, 3, 7902);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'classicCategory')
+data.setCell(11, 2, 'NavBar')
+data.setCell(11, 3, 6974);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loadRandomGame')
+data.setCell(12, 2, 'Logic')
+data.setCell(12, 3, 6432);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'startCandyQuiz')
+data.setCell(13, 2, 'Trivia')
+data.setCell(13, 3, 6090);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'selectAtariAsteroids')
+data.setCell(14, 2, 'Atari')
+data.setCell(14, 3, 5294);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'selectSourPatchKids')
+data.setCell(15, 2, 'Trivia')
+data.setCell(15, 3, 5093);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'categoriesPopular')
+data.setCell(16, 2, 'Categories')
+data.setCell(16, 3, 4985);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'skillCategory')
+data.setCell(17, 2, 'NavBar')
+data.setCell(17, 3, 4899);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testAtoZ')
+data.setCell(18, 2, 'Logic')
+data.setCell(18, 3, 4740);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'categoriesPage')
+data.setCell(19, 2, 'Categories')
+data.setCell(19, 3, 4732);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'goToTriviaCategory')
+data.setCell(20, 2, 'Trivia')
+data.setCell(20, 3, 4328);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'logicCategory')
+data.setCell(21, 2, 'NavBar')
+data.setCell(21, 3, 4242);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'strategyCategory')
+data.setCell(22, 2, 'NavBar')
+data.setCell(22, 3, 4224);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'categoriesPage')
+data.setCell(23, 2, 'NavBar')
+data.setCell(23, 3, 3731);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'allGamesPage')
+data.setCell(24, 2, 'NavBar')
+data.setCell(24, 3, 3651);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'triviaCategory')
+data.setCell(25, 2, 'NavBar')
+data.setCell(25, 3, 3484);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'clickAllGamesTab')
+data.setCell(26, 2, 'Atari')
+data.setCell(26, 3, 3357);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'searchBarInvalidSearch')
+data.setCell(27, 2, 'SearchBar')
+data.setCell(27, 3, 2918);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'japanese')
+data.setCell(28, 2, 'Language')
+data.setCell(28, 3, 2720);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'chinese')
+data.setCell(29, 2, 'Language')
+data.setCell(29, 3, 2643);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'deutsch')
+data.setCell(30, 2, 'Language')
+data.setCell(30, 3, 2629);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'english')
+data.setCell(31, 2, 'Language')
+data.setCell(31, 3, 2601);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'navigateToHomepage')
+data.setCell(32, 2, 'Trivia')
+data.setCell(32, 3, 2494);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'navigateToHomepage')
+data.setCell(33, 2, 'Atari')
+data.setCell(33, 3, 2478);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'spanish')
+data.setCell(34, 2, 'Language')
+data.setCell(34, 3, 2462);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'clickThumbsUpIcon')
+data.setCell(35, 2, 'Atari')
+data.setCell(35, 3, 2368);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'hindi')
+data.setCell(36, 2, 'Language')
+data.setCell(36, 3, 2367);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'italian')
+data.setCell(37, 2, 'Language')
+data.setCell(37, 3, 2343);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'french')
+data.setCell(38, 2, 'Language')
+data.setCell(38, 3, 2314);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'clickDislikeButton')
+data.setCell(39, 2, 'Atari')
+data.setCell(39, 3, 2306);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'searchBarClearing')
+data.setCell(40, 2, 'SearchBar')
+data.setCell(40, 3, 1447);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'searchBarWhenEmpty')
+data.setCell(41, 2, 'SearchBar')
+data.setCell(41, 3, 1133);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'searchBarFunctionality')
+data.setCell(42, 2, 'SearchBar')
+data.setCell(42, 3, 332);
+window.suiteTableData['CoolMathGameSuite']= { tableData: data, tableDiv: 'times-div-CoolMathGameSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-CoolMathGameSuite">
+              </div> <!-- times-div-CoolMathGameSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CoolMathGameSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CoolMathGameSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CoolMathGameSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CoolMathGameSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">SearchBar</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchBarClearing</span>
+                <span class="method-start">3796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchBarFunctionality</span>
+                <span class="method-start">5244 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchBarInvalidSearch</span>
+                <span class="method-start">5577 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchBarValidSearch</span>
+                <span class="method-start">8497 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchBarWhenEmpty</span>
+                <span class="method-start">18049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19182 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Language</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19430 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">chinese</span>
+                <span class="method-start">20452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deutsch</span>
+                <span class="method-start">23096 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">english</span>
+                <span class="method-start">25726 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">french</span>
+                <span class="method-start">28328 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hindi</span>
+                <span class="method-start">30643 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">italian</span>
+                <span class="method-start">33011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">japanese</span>
+                <span class="method-start">35354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">spanish</span>
+                <span class="method-start">38074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40536 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Categories</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setChrome</span>
+                <span class="method-start">40778 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">categoriesCutTheRope</span>
+                <span class="method-start">41813 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">categoriesDailyGames</span>
+                <span class="method-start">51055 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">categoriesNewGames</span>
+                <span class="method-start">62041 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">categoriesPage</span>
+                <span class="method-start">69946 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">categoriesPopular</span>
+                <span class="method-start">74681 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79667 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">NavBar</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">79973 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">strategyCategory</span>
+                <span class="method-start">81362 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">skillCategory</span>
+                <span class="method-start">85587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logicCategory</span>
+                <span class="method-start">90487 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">classicCategory</span>
+                <span class="method-start">94729 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">triviaCategory</span>
+                <span class="method-start">101704 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">categoriesPage</span>
+                <span class="method-start">105191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">allGamesPage</span>
+                <span class="method-start">108924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">112575 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Skills</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">112810 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">HoveringOverGames</span>
+                <span class="method-start">114275 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NavigateToSkillsandClick</span>
+                <span class="method-start">137284 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerticalandHorizontalScroll</span>
+                <span class="method-start">147695 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">170149 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Logic</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">170465 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAtoZ</span>
+                <span class="method-start">171586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPageNumbers</span>
+                <span class="method-start">176326 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkRecommended</span>
+                <span class="method-start">187194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGameLoads</span>
+                <span class="method-start">198405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loadRandomGame</span>
+                <span class="method-start">213531 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">219964 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Trivia</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">220212 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">navigateToHomepage</span>
+                <span class="method-start">221218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">goToTriviaCategory</span>
+                <span class="method-start">223712 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openNameThatCandyVol2</span>
+                <span class="method-start">228041 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">startCandyQuiz</span>
+                <span class="method-start">239815 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectSourPatchKids</span>
+                <span class="method-start">245906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">251000 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Atari</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">251258 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">navigateToHomepage</span>
+                <span class="method-start">252260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickAllGamesTab</span>
+                <span class="method-start">254738 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectAtariAsteroids</span>
+                <span class="method-start">258096 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickThumbsUpIcon</span>
+                <span class="method-start">263391 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickDislikeButton</span>
+                <span class="method-start">265761 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">268067 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

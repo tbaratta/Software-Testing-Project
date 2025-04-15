@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CoolMathGameSuite]" verbose="2">
+  <test thread-count="5" name="AllFeatureTests(failed)" verbose="2">
+    <classes>
+      <class name="SearchBar">
+        <methods>
+          <include name="searchBarClearing"/>
+          <include name="searchBarWhenEmpty"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- SearchBar -->
+      <class name="Categories">
+        <methods>
+          <include name="tearDown"/>
+          <include name="categoriesPopular"/>
+          <include name="setChrome"/>
+        </methods>
+      </class> <!-- Categories -->
+      <class name="Logic">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testAtoZ"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Logic -->
+    </classes>
+  </test> <!-- AllFeatureTests(failed) -->
+</suite> <!-- Failed suite [CoolMathGameSuite] -->

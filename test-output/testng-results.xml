@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="43" passed="39" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-15T03:57:00 EDT" name="CoolMathGameSuite" finished-at="2025-04-15T04:01:28 EDT" duration-ms="268370">
+    <groups>
+    </groups>
+    <test started-at="2025-04-15T03:57:00 EDT" name="AllFeatureTests" finished-at="2025-04-15T04:01:28 EDT" duration-ms="268370">
+      <class name="Language">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Language@6c3f5566]" started-at="2025-04-15T03:57:19 EDT" name="setUp" finished-at="2025-04-15T03:57:20 EDT" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="chinese()[pri:0, instance:Language@6c3f5566]" started-at="2025-04-15T03:57:20 EDT" name="chinese" finished-at="2025-04-15T03:57:23 EDT" duration-ms="2643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chinese -->
+        <test-method signature="deutsch()[pri:0, instance:Language@6c3f5566]" started-at="2025-04-15T03:57:23 EDT" name="deutsch" finished-at="2025-04-15T03:57:25 EDT" duration-ms="2629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deutsch -->
+        <test-method signature="english()[pri:0, instance:Language@6c3f5566]" started-at="2025-04-15T03:57:25 EDT" name="english" finished-at="2025-04-15T03:57:28 EDT" duration-ms="2601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- english -->
+        <test-method signature="french()[pri:0, instance:Language@6c3f5566]" started-at="2025-04-15T03:57:28 EDT" name="french" finished-at="2025-04-15T03:57:30 EDT" duration-ms="2314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- french -->
+        <test-method signature="hindi()[pri:0, instance:Language@6c3f5566]" started-at="2025-04-15T03:57:30 EDT" name="hindi" finished-at="2025-04-15T03:57:33 EDT" duration-ms="2367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hindi -->
+        <test-method signature="italian()[pri:0, instance:Language@6c3f5566]" started-at="2025-04-15T03:57:33 EDT" name="italian" finished-at="2025-04-15T03:57:35 EDT" duration-ms="2343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- italian -->
+        <test-method signature="japanese()[pri:0, instance:Language@6c3f5566]" started-at="2025-04-15T03:57:35 EDT" name="japanese" finished-at="2025-04-15T03:57:38 EDT" duration-ms="2720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- japanese -->
+        <test-method signature="spanish()[pri:0, instance:Language@6c3f5566]" started-at="2025-04-15T03:57:38 EDT" name="spanish" finished-at="2025-04-15T03:57:40 EDT" duration-ms="2462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spanish -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Language@6c3f5566]" started-at="2025-04-15T03:57:40 EDT" name="tearDown" finished-at="2025-04-15T03:57:40 EDT" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Language -->
+      <class name="Skills">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Skills@10b48321]" started-at="2025-04-15T03:58:52 EDT" name="setUp" finished-at="2025-04-15T03:58:54 EDT" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="HoveringOverGames()[pri:0, instance:Skills@10b48321]" started-at="2025-04-15T03:58:54 EDT" name="HoveringOverGames" finished-at="2025-04-15T03:59:17 EDT" duration-ms="23009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HoveringOverGames -->
+        <test-method signature="NavigateToSkillsandClick()[pri:0, instance:Skills@10b48321]" started-at="2025-04-15T03:59:17 EDT" name="NavigateToSkillsandClick" finished-at="2025-04-15T03:59:27 EDT" duration-ms="10408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToSkillsandClick -->
+        <test-method signature="VerticalandHorizontalScroll()[pri:0, instance:Skills@10b48321]" started-at="2025-04-15T03:59:27 EDT" name="VerticalandHorizontalScroll" finished-at="2025-04-15T03:59:50 EDT" duration-ms="22453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerticalandHorizontalScroll -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Skills@10b48321]" started-at="2025-04-15T03:59:50 EDT" name="tearDown" finished-at="2025-04-15T03:59:50 EDT" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Skills -->
+      <class name="Categories">
+        <test-method is-config="true" signature="setChrome()[pri:0, instance:Categories@12405818]" started-at="2025-04-15T03:57:40 EDT" name="setChrome" finished-at="2025-04-15T03:57:41 EDT" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setChrome -->
+        <test-method signature="categoriesCutTheRope()[pri:0, instance:Categories@12405818]" started-at="2025-04-15T03:57:41 EDT" name="categoriesCutTheRope" finished-at="2025-04-15T03:57:51 EDT" duration-ms="9240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoriesCutTheRope -->
+        <test-method signature="categoriesDailyGames()[pri:0, instance:Categories@12405818]" started-at="2025-04-15T03:57:51 EDT" name="categoriesDailyGames" finished-at="2025-04-15T03:58:02 EDT" duration-ms="10984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoriesDailyGames -->
+        <test-method signature="categoriesNewGames()[pri:0, instance:Categories@12405818]" started-at="2025-04-15T03:58:02 EDT" name="categoriesNewGames" finished-at="2025-04-15T03:58:09 EDT" duration-ms="7902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoriesNewGames -->
+        <test-method signature="categoriesPage()[pri:0, instance:Categories@12405818]" started-at="2025-04-15T03:58:09 EDT" name="categoriesPage" finished-at="2025-04-15T03:58:14 EDT" duration-ms="4732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoriesPage -->
+        <test-method signature="categoriesPopular()[pri:0, instance:Categories@12405818]" started-at="2025-04-15T03:58:14 EDT" name="categoriesPopular" finished-at="2025-04-15T03:58:19 EDT" duration-ms="4985" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a class="inner" href="1-popular-games">...</a> is not clickable at point (670, 374). Other element would receive the click: <ul class="menu mb-0">...</ul>
+  (Session info: chrome=135.0.7049.85)
+Build info: version: '4.29.0', revision: '18ae989'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2b4281bbb275dfa929ef873e65fe3eaf, clickElement {id=f.6175EB1C01884424A48D0F22FF126086.d.339A8807F409D7874A38092DE6B88CFB.e.1200}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/_k/jy17ssg501s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64689}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64689/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (2b4281bbb275dfa929ef873e65fe3eaf)] -> css selector: a.inner[href='1-popular-games']]
+Session ID: 2b4281bbb275dfa929ef873e65fe3eaf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="inner" href="1-popular-games">...</a> is not clickable at point (670, 374). Other element would receive the click: <ul class="menu mb-0">...</ul>
+  (Session info: chrome=135.0.7049.85)
+Build info: version: '4.29.0', revision: '18ae989'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2b4281bbb275dfa929ef873e65fe3eaf, clickElement {id=f.6175EB1C01884424A48D0F22FF126086.d.339A8807F409D7874A38092DE6B88CFB.e.1200}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/_k/jy17ssg501s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64689}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64689/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (2b4281bbb275dfa929ef873e65fe3eaf)] -> css selector: a.inner[href='1-popular-games']]
+Session ID: 2b4281bbb275dfa929ef873e65fe3eaf
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at Categories.categoriesPopular(Categories.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at testRunner.main(testRunner.java:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoriesPopular -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Categories@12405818]" started-at="2025-04-15T03:58:19 EDT" name="tearDown" finished-at="2025-04-15T03:58:20 EDT" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Categories -->
+      <class name="SearchBar">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SearchBar@25359ed8]" started-at="2025-04-15T03:57:00 EDT" name="setUp" finished-at="2025-04-15T03:57:03 EDT" duration-ms="3770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchBarClearing()[pri:0, instance:SearchBar@25359ed8]" started-at="2025-04-15T03:57:03 EDT" name="searchBarClearing" finished-at="2025-04-15T03:57:05 EDT" duration-ms="1447" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input aria-label="Enter Search Term" autocomplete="off" placeholder="Search" type="text" name="search_bar" id="search-bar" value="" size="60" maxlength="128" class="form-text menu-search-bar"> is not clickable at point (1192, 29). Other element would receive the click: <div class="col">...</div>
+  (Session info: chrome=135.0.7049.85)
+Build info: version: '4.29.0', revision: '18ae989'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97eaf6ae92521dffd3b858bbf9666b4b, clickElement {id=f.4FA1DED887D2744669ACFA3AA6B9D071.d.491AEB987B049B986424279F1F5A26E9.e.132}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/_k/jy17ssg501s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63324/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (97eaf6ae92521dffd3b858bbf9666b4b)] -> id: search-bar]
+Session ID: 97eaf6ae92521dffd3b858bbf9666b4b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input aria-label="Enter Search Term" autocomplete="off" placeholder="Search" type="text" name="search_bar" id="search-bar" value="" size="60" maxlength="128" class="form-text menu-search-bar"> is not clickable at point (1192, 29). Other element would receive the click: <div class="col">...</div>
+  (Session info: chrome=135.0.7049.85)
+Build info: version: '4.29.0', revision: '18ae989'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97eaf6ae92521dffd3b858bbf9666b4b, clickElement {id=f.4FA1DED887D2744669ACFA3AA6B9D071.d.491AEB987B049B986424279F1F5A26E9.e.132}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/_k/jy17ssg501s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63324/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (97eaf6ae92521dffd3b858bbf9666b4b)] -> id: search-bar]
+Session ID: 97eaf6ae92521dffd3b858bbf9666b4b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at SearchBar.searchBarClearing(SearchBar.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at testRunner.main(testRunner.java:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarClearing -->
+        <test-method signature="searchBarFunctionality()[pri:0, instance:SearchBar@25359ed8]" started-at="2025-04-15T03:57:05 EDT" name="searchBarFunctionality" finished-at="2025-04-15T03:57:05 EDT" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarFunctionality -->
+        <test-method signature="searchBarInvalidSearch()[pri:0, instance:SearchBar@25359ed8]" started-at="2025-04-15T03:57:05 EDT" name="searchBarInvalidSearch" finished-at="2025-04-15T03:57:08 EDT" duration-ms="2918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarInvalidSearch -->
+        <test-method signature="searchBarValidSearch()[pri:0, instance:SearchBar@25359ed8]" started-at="2025-04-15T03:57:08 EDT" name="searchBarValidSearch" finished-at="2025-04-15T03:57:18 EDT" duration-ms="9551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarValidSearch -->
+        <test-method signature="searchBarWhenEmpty()[pri:0, instance:SearchBar@25359ed8]" started-at="2025-04-15T03:57:18 EDT" name="searchBarWhenEmpty" finished-at="2025-04-15T03:57:19 EDT" duration-ms="1133" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input aria-label="Enter Search Term" autocomplete="off" placeholder="Search" type="text" name="search_bar" id="search-bar" value="" size="60" maxlength="128" class="form-text menu-search-bar"> is not clickable at point (1192, 29). Other element would receive the click: <div class="col">...</div>
+  (Session info: chrome=135.0.7049.85)
+Build info: version: '4.29.0', revision: '18ae989'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97eaf6ae92521dffd3b858bbf9666b4b, clickElement {id=f.4FA1DED887D2744669ACFA3AA6B9D071.d.BBE92667EA9C3407EFA63E7007ED29B2.e.595}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/_k/jy17ssg501s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63324/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (97eaf6ae92521dffd3b858bbf9666b4b)] -> id: search-bar]
+Session ID: 97eaf6ae92521dffd3b858bbf9666b4b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input aria-label="Enter Search Term" autocomplete="off" placeholder="Search" type="text" name="search_bar" id="search-bar" value="" size="60" maxlength="128" class="form-text menu-search-bar"> is not clickable at point (1192, 29). Other element would receive the click: <div class="col">...</div>
+  (Session info: chrome=135.0.7049.85)
+Build info: version: '4.29.0', revision: '18ae989'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97eaf6ae92521dffd3b858bbf9666b4b, clickElement {id=f.4FA1DED887D2744669ACFA3AA6B9D071.d.BBE92667EA9C3407EFA63E7007ED29B2.e.595}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/_k/jy17ssg501s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63324/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (97eaf6ae92521dffd3b858bbf9666b4b)] -> id: search-bar]
+Session ID: 97eaf6ae92521dffd3b858bbf9666b4b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at SearchBar.searchBarWhenEmpty(SearchBar.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at testRunner.main(testRunner.java:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarWhenEmpty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SearchBar@25359ed8]" started-at="2025-04-15T03:57:19 EDT" name="tearDown" finished-at="2025-04-15T03:57:19 EDT" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SearchBar -->
+      <class name="NavBar">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:NavBar@314c508a]" started-at="2025-04-15T03:58:20 EDT" name="setUp" finished-at="2025-04-15T03:58:21 EDT" duration-ms="1388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="strategyCategory()[pri:1, instance:NavBar@314c508a]" started-at="2025-04-15T03:58:21 EDT" name="strategyCategory" finished-at="2025-04-15T03:58:25 EDT" duration-ms="4224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- strategyCategory -->
+        <test-method signature="skillCategory()[pri:2, instance:NavBar@314c508a]" started-at="2025-04-15T03:58:25 EDT" name="skillCategory" finished-at="2025-04-15T03:58:30 EDT" duration-ms="4899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skillCategory -->
+        <test-method signature="logicCategory()[pri:3, instance:NavBar@314c508a]" started-at="2025-04-15T03:58:30 EDT" name="logicCategory" finished-at="2025-04-15T03:58:34 EDT" duration-ms="4242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logicCategory -->
+        <test-method signature="classicCategory()[pri:4, instance:NavBar@314c508a]" started-at="2025-04-15T03:58:34 EDT" name="classicCategory" finished-at="2025-04-15T03:58:41 EDT" duration-ms="6974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classicCategory -->
+        <test-method signature="triviaCategory()[pri:5, instance:NavBar@314c508a]" started-at="2025-04-15T03:58:41 EDT" name="triviaCategory" finished-at="2025-04-15T03:58:45 EDT" duration-ms="3484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- triviaCategory -->
+        <test-method signature="categoriesPage()[pri:6, instance:NavBar@314c508a]" started-at="2025-04-15T03:58:45 EDT" name="categoriesPage" finished-at="2025-04-15T03:58:48 EDT" duration-ms="3731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoriesPage -->
+        <test-method signature="allGamesPage()[pri:7, instance:NavBar@314c508a]" started-at="2025-04-15T03:58:48 EDT" name="allGamesPage" finished-at="2025-04-15T03:58:52 EDT" duration-ms="3651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allGamesPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:NavBar@314c508a]" started-at="2025-04-15T03:58:52 EDT" name="tearDown" finished-at="2025-04-15T03:58:52 EDT" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- NavBar -->
+      <class name="Trivia">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Trivia@16267862]" started-at="2025-04-15T04:00:40 EDT" name="setUp" finished-at="2025-04-15T04:00:41 EDT" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToHomepage()[pri:1, instance:Trivia@16267862]" started-at="2025-04-15T04:00:41 EDT" name="navigateToHomepage" finished-at="2025-04-15T04:00:43 EDT" duration-ms="2494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomepage -->
+        <test-method signature="goToTriviaCategory()[pri:2, instance:Trivia@16267862]" started-at="2025-04-15T04:00:43 EDT" name="goToTriviaCategory" finished-at="2025-04-15T04:00:48 EDT" duration-ms="4328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToTriviaCategory -->
+        <test-method signature="openNameThatCandyVol2()[pri:3, instance:Trivia@16267862]" started-at="2025-04-15T04:00:48 EDT" name="openNameThatCandyVol2" finished-at="2025-04-15T04:00:59 EDT" duration-ms="11773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNameThatCandyVol2 -->
+        <test-method signature="startCandyQuiz()[pri:4, instance:Trivia@16267862]" started-at="2025-04-15T04:00:59 EDT" name="startCandyQuiz" finished-at="2025-04-15T04:01:05 EDT" duration-ms="6090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startCandyQuiz -->
+        <test-method signature="selectSourPatchKids()[pri:5, instance:Trivia@16267862]" started-at="2025-04-15T04:01:05 EDT" name="selectSourPatchKids" finished-at="2025-04-15T04:01:11 EDT" duration-ms="5093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSourPatchKids -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Trivia@16267862]" started-at="2025-04-15T04:01:11 EDT" name="tearDown" finished-at="2025-04-15T04:01:11 EDT" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Trivia -->
+      <class name="Logic">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Logic@6b67034]" started-at="2025-04-15T03:59:50 EDT" name="setUp" finished-at="2025-04-15T03:59:51 EDT" duration-ms="1120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAtoZ()[pri:1, instance:Logic@6b67034]" started-at="2025-04-15T03:59:51 EDT" name="testAtoZ" finished-at="2025-04-15T03:59:56 EDT" duration-ms="4740" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button type="button" role="tab" aria-selected="false" aria-controls="panel-az" data-state="inactive" id="tab-az" class="whitespace-nowrap rounded-sm text-sm md:text-lg font-bold ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm flex flex-col gap-[0.4rem] md:gap-2 justify-center items-start relative bg-transparent p-0 min-w-fit" tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">...</button> is not clickable at point (678, 246). Other element would receive the click: <span class="text-[15px] font-bold ml-[15px]">...</span>
+  (Session info: chrome=135.0.7049.85)
+Build info: version: '4.29.0', revision: '18ae989'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08e83c4bbf08f873ae579d2674f17f42, clickElement {id=f.2FCDA4E07BCDA13B534FA7D4F3F1C234.d.8B00AC0F407F528877694908AE9CA623.e.123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/_k/jy17ssg501s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50317}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50317/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (08e83c4bbf08f873ae579d2674f17f42)] -> xpath: //*[@id="tab-az"]]
+Session ID: 08e83c4bbf08f873ae579d2674f17f42]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" role="tab" aria-selected="false" aria-controls="panel-az" data-state="inactive" id="tab-az" class="whitespace-nowrap rounded-sm text-sm md:text-lg font-bold ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm flex flex-col gap-[0.4rem] md:gap-2 justify-center items-start relative bg-transparent p-0 min-w-fit" tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">...</button> is not clickable at point (678, 246). Other element would receive the click: <span class="text-[15px] font-bold ml-[15px]">...</span>
+  (Session info: chrome=135.0.7049.85)
+Build info: version: '4.29.0', revision: '18ae989'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08e83c4bbf08f873ae579d2674f17f42, clickElement {id=f.2FCDA4E07BCDA13B534FA7D4F3F1C234.d.8B00AC0F407F528877694908AE9CA623.e.123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/_k/jy17ssg501s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50317}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50317/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (08e83c4bbf08f873ae579d2674f17f42)] -> xpath: //*[@id="tab-az"]]
+Session ID: 08e83c4bbf08f873ae579d2674f17f42
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at Logic.testAtoZ(Logic.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at testRunner.main(testRunner.java:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAtoZ -->
+        <test-method signature="testPageNumbers()[pri:2, instance:Logic@6b67034]" started-at="2025-04-15T03:59:56 EDT" name="testPageNumbers" finished-at="2025-04-15T04:00:07 EDT" duration-ms="10866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageNumbers -->
+        <test-method signature="checkRecommended()[pri:3, instance:Logic@6b67034]" started-at="2025-04-15T04:00:07 EDT" name="checkRecommended" finished-at="2025-04-15T04:00:18 EDT" duration-ms="11210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRecommended -->
+        <test-method signature="verifyGameLoads()[pri:4, instance:Logic@6b67034]" started-at="2025-04-15T04:00:18 EDT" name="verifyGameLoads" finished-at="2025-04-15T04:00:33 EDT" duration-ms="15123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGameLoads -->
+        <test-method signature="loadRandomGame()[pri:5, instance:Logic@6b67034]" started-at="2025-04-15T04:00:33 EDT" name="loadRandomGame" finished-at="2025-04-15T04:00:39 EDT" duration-ms="6432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadRandomGame -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Logic@6b67034]" started-at="2025-04-15T04:00:39 EDT" name="tearDown" finished-at="2025-04-15T04:00:40 EDT" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Logic -->
+      <class name="Atari">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Atari@453da22c]" started-at="2025-04-15T04:01:11 EDT" name="setUp" finished-at="2025-04-15T04:01:12 EDT" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToHomepage()[pri:1, instance:Atari@453da22c]" started-at="2025-04-15T04:01:12 EDT" name="navigateToHomepage" finished-at="2025-04-15T04:01:14 EDT" duration-ms="2478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomepage -->
+        <test-method signature="clickAllGamesTab()[pri:2, instance:Atari@453da22c]" started-at="2025-04-15T04:01:14 EDT" name="clickAllGamesTab" finished-at="2025-04-15T04:01:18 EDT" duration-ms="3357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAllGamesTab -->
+        <test-method signature="selectAtariAsteroids()[pri:3, instance:Atari@453da22c]" started-at="2025-04-15T04:01:18 EDT" name="selectAtariAsteroids" finished-at="2025-04-15T04:01:23 EDT" duration-ms="5294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAtariAsteroids -->
+        <test-method signature="clickThumbsUpIcon()[pri:4, instance:Atari@453da22c]" started-at="2025-04-15T04:01:23 EDT" name="clickThumbsUpIcon" finished-at="2025-04-15T04:01:25 EDT" duration-ms="2368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickThumbsUpIcon -->
+        <test-method signature="clickDislikeButton()[pri:5, instance:Atari@453da22c]" started-at="2025-04-15T04:01:25 EDT" name="clickDislikeButton" finished-at="2025-04-15T04:01:28 EDT" duration-ms="2306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDislikeButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Atari@453da22c]" started-at="2025-04-15T04:01:28 EDT" name="tearDown" finished-at="2025-04-15T04:01:28 EDT" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Atari -->
+    </test> <!-- AllFeatureTests -->
+  </suite> <!-- CoolMathGameSuite -->
+</testng-results>
